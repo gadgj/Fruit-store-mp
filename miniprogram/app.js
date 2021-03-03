@@ -6,7 +6,7 @@ App({
       console.error('请使用 2.2.3 或以上的基础库以使用云能力')
     } else {
       wx.cloud.init({
-        env: 'voyz-cloud-86f82a',
+        env: 'hc-test-v7gxz',
         traceUser: true,
       })
     }
@@ -18,9 +18,9 @@ App({
       tempFilePaths: "",
       admin:["Mr.Voyz"],
       openId: null,
-      appid: 'wx0dd8c5c9ebe90a78',
-      mch_id: '1519277861',
-      apikey: 'James487493259359826923695832443',
+      appid: 'wx407c87508f5e64af',
+      mch_id: '1602728570',
+      apikey: 'Lyj12345Lyj12345Lyj12345Lyj12345',
       offLine:false,
       school_Arr: [
         "交大",

@@ -24,7 +24,7 @@ Page({
       name: 'getIP'
     }).then(e=>{
       if(e){
-        let spbill_create_ip = e.result.body.split("query\"\:\"")[1].split("\"\,\"")[0]
+        let spbill_create_ip = e.result.body.split("query\"\:\"")[1].split("\"}")[0]
         console.log("IP地址为：" + spbill_create_ip)
         self.setData({
           spbill_create_ip: spbill_create_ip
@@ -241,6 +241,7 @@ Page({
         })
         .catch(err=>{
           if(err){
+            console.log(err);
             wx.showModal({
               title: '错误',
               content: '请重新点击支付~',

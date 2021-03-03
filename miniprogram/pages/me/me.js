@@ -11,7 +11,8 @@ Page({
     adiminArr: [
       '',
       'oA9Ke4tObqwxqNSfALdVZPkVv7Yc',
-      'oA9Ke4rH2nnqFgFbWIhyQu5bCXPA'
+      'oA9Ke4rH2nnqFgFbWIhyQu5bCXPA',
+      'oYe0g5T0JsMedWPP-2EBxiqaxhMU'
     ]
   },
   onLoad() {
